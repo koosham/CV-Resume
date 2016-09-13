@@ -1,0 +1,282 @@
+%& -job-name=CV % Put CV or Resume here to generate output files with these names [Use PDFTeXify]
+
+\newif\ifResume
+% Comment the following line to get a full CV version
+%\Resumetrue % 2-page Resume Version
+
+\ifResume
+    \documentclass[10pt]{article}
+\else
+    \documentclass[11pt]{article}
+\fi
+
+\ifResume
+    \def \SectionEndSpace {0.9}
+    \def \SectionStartSpace {0.5}
+    \def \AfterTitleSpace {0.5}
+\else
+    \def \SectionEndSpace {1.2}
+    \def \SectionStartSpace {0.7}
+    \def \AfterTitleSpace {0.7}
+\fi
+
+\usepackage{tabularx}
+\usepackage[resetlabels]{multibib}
+\usepackage{CV}
+\usepackage{tweaklist}
+
+\ifResume
+    \setlength{\textheight}{9.95in}
+    \setlength{\headheight}{-2.85in}
+    \newlength{\Vspace}
+    \setlength{\Vspace}{1mm}
+    \newlength{\WidthSkills}
+    \setlength{\WidthSkills}{4.8in}
+    \setlength{\textwidth}{6.9in}
+    \setlength{\oddsidemargin}{-0.2in}
+    \setlength{\evensidemargin}{-0.2in}
+\else
+    \setlength{\textheight}{9.2in}
+    \setlength{\headheight}{-2.35in}
+    \newlength{\Vspace}
+    \setlength{\Vspace}{2mm}
+    \newlength{\WidthSkills}
+    \setlength{\WidthSkills}{4.4in}
+    \setlength{\textwidth}{6.7in}
+    \setlength{\oddsidemargin}{-0.1in}
+    \setlength{\evensidemargin}{-0.1in}
+\fi
+
+\newlength{\VspacePub}
+\setlength{\VspacePub}{3mm}
+
+\setlength{\topmargin}{0.0in}
+\setlength{\headsep}{2.3in}
+
+\renewcommand{\enumhook}{\setlength{\topsep}{0pt}
+  \setlength{\itemsep}{0pt}}
+
+\renewcommand{\itemhook}{\setlength{\topsep}{0pt}
+  \setlength{\itemsep}{0pt}}
+
+\renewcommand{\descripthook}{\setlength{\topsep}{0pt}
+  \setlength{\itemsep}{0pt}}
+
+\usepackage[pdfpagemode={UseOutlines},bookmarks,bookmarksopen,]{hyperref}
+\hyphenation{Isfahan Iran comm-un-ic-ations net-work net-works spec-trometer auto-mobile tech-nology
+             Labview MATLAB Simulink OrCAD Xilinx EPANET Embedded Workbench Photoshop CorelDRAW Active}
+
+\begin{document}
+
+\thispagestyle{empty}
+
+\begin{center}
+
+\ifResume
+    \huge{\textsc{R\'{e}sum\'{e}}}
+
+\else
+    \huge{\textsc{Curriculum Vitae}}
+\fi
+
+{\Large{\textsc{Koosha Marashi}}}
+
+\end{center}
+
+\section{Contact Information}
+
+\begin{flushleft}
+
+    Missouri University of Science and Technology (Missouri S\&T)\\
+    113 Engineering Research Lab \\
+    500 W. 16th St. \\
+    Rolla, MO 65409-6522 \\
+    Phone: (573) 202-8465 \\
+    E-mail: km89f@mst.edu \\
+    Web page: \url{http://www.mst.edu/\~km89f} \\
+    Linkedin: \url{http://www.linkedin.com/in/koosham}
+
+\end{flushleft}
+
+\section{Education}
+
+\begin{CV}
+
+\item[8/2012--Present] Ph.D. in Computer Engineering (anticipated graduation date: 12/16)\\Missouri S\&T, Rolla, MO \\
+    Thesis: \emph{Modeling and Analysis of Cyber-Physical Systems:\\Dependability of Critical Infrastructures} \\
+    Advisor: Dr. Sahra Sedigh Sarvestani \\
+    GPA: 3.83/4.0
+
+\item[9/2006--2/2011] B.S. in Electrical Engineering \\ Isfahan University of Technology, Isfahan, Iran \\
+    GPA: 15.61/20
+
+\end{CV}
+
+\section{Work Experience}
+
+\begin{CV}
+
+\item[9/2012--Present] \textit{Graduate Research/Teaching Assistant} \\
+    \textit{Missouri S\&T, Department of Electrical and Computer Engineering, Rolla, MO}\vspace{\Vspace} \\
+    Developed an analytical reliability model for smart power grids. \\
+    Developed an analytical reliability model for intelligent water distribution networks. \\
+    Developed a Very Low Frequency (VLF) signal detector for underwater communications.
+    %Graded homework and examinations for \emph{Digital Networks Design} course (CpE-319).
+
+\item[5/2016--Present] \textit{Software/Hardware Development Intern} \\
+    \textit{Kalscott Eng., Lawrence, KS}\vspace{\Vspace} \\
+    Improved the previously designed automated airband radio for UAVs. Main improvements include migrating to a small single-board computer with Linux and adding speech recognition feature.
+
+\item[5/2015--8/2015] \textit{Web/Application Development Intern} \\
+    \textit{Intellispeak LLC, Lawrence, KS}\vspace{\Vspace} \\
+    Developed an information network for e-health services based on Gimbal Bluetooth beacons. \\
+    Responsible for development of web server, Android application, database, and web interface.
+
+\item[5/2014--8/2014] \textit{Software/Hardware Development Intern} \\
+    \textit{Kalscott Eng., Lawrence, KS}\vspace{\Vspace} \\
+    Designed and developed an automated airband radio for UAVs.
+
+\item[8/2010--6/2012] \textit{Research Assistant} \\
+    \textit{Industrial Automation Research Center, Isfahan University of Technology, Isfahan, Iran}\vspace{\Vspace} \\
+    Designed and developed a 10-channel stand-alone data logger. \\
+    Designed and developed a PC-based data acquisition system for ion-mobility spectrometry.
+
+\item[9/2011--2/2012] \textit{Electrical Engineer} \\
+    \textit{Beh-Azmoon Co., Isfahan, Iran}\vspace{\Vspace} \\
+    Designed and developed a wireless crack monitoring system used for structural health monitoring (funded by Iran's Cultural Heritage Organization).
+
+\item[11/2006--10/2010] \textit{Research Assistant} \\
+    \textit{Robotics Research Center, Isfahan University of Technology, Isfahan, Iran}\vspace{\Vspace} \\
+    Designed and implemented navigation system, sensor fusion algorithm, and fuzzy logic motor controller for LynCean mobile robot \\
+    Implemented a motion planning algorithm for Persia soccer robots.
+
+\item[2/2010--9/2010] \textit{Design Engineer} \\
+    \textit{Farman Khodro Co., Isfahan, Iran}\vspace{\Vspace} \\
+    Designed an electric power steering system for Iran-Khodro Samand automobile.
+
+%\item[6/2010--9/2010] \textit{Instructor} \\
+%    \textit{Isfahan University of Technology, Isfahan, Iran}\vspace{\Vspace} \\
+%    Had full responsibility for instruction and assessment of a three-month summer camp on introductory robotics (programmable gates, PCB design, and CAD tools); 67 undergraduate electrical and computer engineering students attended.
+
+\item[10/2009--8/2010] \textit{Research Assistant} \\
+    \textit{Automotive Research Group, Isfahan University of Technology, Isfahan, Iran}\vspace{\Vspace} \\
+    Designed and developed a prototype Engine Control Unit (ECU) for Honda GX35 engine. \\
+    Developed an electrical dynamometer for low-power engines.
+
+\item[6/2008--1/2009] \textit{Research Assistant} \\
+    \textit{Artificial Intelligence Laboratory, Isfahan University of Technology, Isfahan, Iran}\vspace{\Vspace} \\
+    Implemented walking algorithm and developed a motor controller for Parsa humanoid robot. \\
+    Designed a test bed for measuring backlash of position servo mechanism motors.
+
+\end{CV}
+
+\section{Patents}
+
+\begin{flushleft}
+
+Wireless Temperature Monitoring System for Centrifugal Casting, Pat. No. 81750, Iran, 2014 \vspace{\Vspace} \\
+2D Wireless Structural Crack Monitoring System, Pat. No. 62181, Iran, 2010 \vspace{\Vspace} \\
+Handheld Data Logger for Agricultural Applications, Pat. No. 61142, Iran, 2010 \vspace{\Vspace} \\
+Life Detector Robot with Adjustable Functionality, Pat. No. 60845, Iran, 2009 \vspace{\Vspace} \\
+Extendable DC Motor Controller System, Pat. No. 60839, Iran, 2009 \vspace{\Vspace} \\
+An Innovative Co-Axial Rotation Mechanism, Pat. No. 60847, Iran, 2009 \vspace{\Vspace} \\
+Robust Track Mechanism for Locomotion of Mobile Robots, Pat. No. 60849, Iran, 2009 \vspace{\Vspace} \\
+Lightweight Robust Platform for Mobile Robots, Pat. No. 60848, Iran, 2009
+
+\end{flushleft}
+
+\ifResume
+\section{Publications}
+
+\begin{flushleft}
+3 refereed conference papers. \\
+1 journal paper submitted.
+\end{flushleft}
+
+\else
+\section{Refereed Conference Publications}
+
+\begin{flushleft}
+K. Marashi, S. Sedigh, and A. Hurson, ``Quantification and Analysis of Interdependency in Cyber-Physical Systems,'' \textit{In Proceedings of the 3\textsuperscript{rd} International Workshop on Reliability and Security Aspects for Critical Infrastructure Protection (ReSA4CI '16)}, Toulouse, France, Jun. 2016. \\ \vspace{\VspacePub}
+
+K. Marashi and S. Sedigh,``Towards Comprehensive Modeling of Reliability for Smart Grids: Requirements and Challenges,''
+\textit{In Proceedings of the 15\textsuperscript{th} IEEE International Symposium on High-Assurance Systems Engineering (HASE)}, pp. 105-112, Miami, FL, Jan. 2014. Selected for appearing in 2\textsuperscript{nd} issue of 2015 Science of Security Newsletter. \\ \vspace{\VspacePub}
+
+K. Marashi, M. Woodard, S. Sedigh, and A. Hurson,``Quantitative Reliability Analysis for Intelligent Water Distribution Networks,'' \textit{In Proceedings of the Embedded Topical Meeting on Risk Management for Complex Socio-Technical Systems (RM4CSS)}, Annual Meeting of the American Nuclear Society, Washington, D.C., Nov. 2013.
+
+\end{flushleft}
+\fi
+
+\section{Honors and Awards}
+
+\begin{flushleft}
+
+National University Transportation Center Fellowship, US Department of Transportation, 2013 \vspace{\Vspace} \\
+Scholarship to attend summer school on Trustworthy Cyber Infrastructure for the Power Grid, IL, 2013 \vspace{\Vspace} \\
+Fellowship from Missouri S\&T Vice-Provost for Graduate Studies, 2012 \vspace{\Vspace} \\
+Gold Medal, 38\textsuperscript{th} Geneva Invention Exhibition, Switzerland, 2010 \vspace{\Vspace} \\
+Best Invention Award (from Russian Incubator), 38\textsuperscript{th} Geneva Invention Exhibition, Switzerland, 2010 \vspace{\Vspace} \\
+Outstanding Undergraduate Researcher Award, Isfahan University of Technology, Iran, 2009
+
+\end{flushleft}
+
+\ifResume
+\else
+\section{Professional Activities}
+\begin{flushleft}
+Reviewer, Journal of Mathematics and Computer Science, 2016 \vspace{\Vspace} \\
+Reviewer, IEEE International Computers, Software \& Applications Conference (COMPSAC), 2016 \vspace{\Vspace} \\
+Reviewer, IEEE International Computers, Software \& Applications Conference (COMPSAC), 2015 \vspace{\Vspace} \\
+Reviewer, IEEE International Green Computing Conference (IGCC), 2014 \vspace{\Vspace} \\
+Reviewer, IEEE International Symposium on High Assurance Systems Engineering (HASE), 2014 \vspace{\Vspace} \\
+Reviewer, IEEE International Conference on Software Security and Reliability (SERE), 2014 \vspace{\Vspace} \\
+Reviewer, IEEE International Conference on Software Security and Reliability (SERE), 2013
+\end{flushleft}
+\fi
+
+\ifResume
+\else
+\section{Professional Development}
+\begin{flushleft}
+Graduate Teaching Assistant Workshop, Missouri S\&T, Rolla, MO, 2014 \vspace{\Vspace} \\
+Research \& Technology Development Conference, Missouri S\&T, Rolla, MO, 2014 \vspace{\Vspace} \\
+Transportation Infrastructure Conference, Missouri S\&T, Rolla, MO, 2014 \vspace{\Vspace} \\
+IEEE/Ameren Lean Fundamentals Workshop, Ameren, St. Louis, MO, 2014 \vspace{\Vspace} \\
+Presenting Data and Information by Edward Tufte, Fairmont Chicago, Chicago, IL, 2014 \vspace{\Vspace} \\
+IEEE Seminar on Modeling Cyber Attack-Defense Interactions, Missouri S\&T, Rolla, MO, 2013 \vspace{\Vspace} \\
+Engineering Management \& Systems Engineering Graduate Seminar - A Survey of Applications and Future Directions of Computational Intelligence, Missouri S\&T, Rolla, MO, 2013 \vspace{\Vspace} \\
+Transportation Infrastructure Conference, Capitol Plaza Hotel, Jefferson City, MO, 2013 \vspace{\Vspace} \\
+Trustworthy Cyber Infrastructure for the Power Grid (TCIPG) Summer School, Q Center, St. Charles, IL, 2013
+\end{flushleft}
+\fi
+
+\ifResume
+\else
+\section{Professional Society Membership}
+\begin{flushleft}
+IEEE Student Member, Since 2013 \vspace{\Vspace} \\
+IEEE - Eta Kappa Nu Member, Since 2014
+ACM Student Member, Since 2015 \vspace{\Vspace} \\
+ACM - SIGMETRICS Member, Since 2015 \vspace{\Vspace} \\
+National Society of Professional Engineers Student Member, Since 2015
+\end{flushleft}
+\fi
+
+\section{Technical Skills}
+
+\begin{flushleft}
+
+\begin{tabular}{l p{\WidthSkills}}
+    \underline{Programming Languages:} & Python, C/C++, Java, SQL, Verilog, Assembly \\
+    \underline{Web Technologies:} & HTML, JavaScript, jQuery, CSS, Amazon AWS/EC2 \\
+    \underline{Development Tools:} & Eclipse, PyCharm, Android Studio, Git, Keil, IAR Embedded Workbench \\
+    \underline{Computer Software:} & Labview (Certified LabVIEW Associate Developer, issued 5/13), MATLAB \& Simulink, OrCAD, \LaTeX, SAS, JMP, Active HDL, Xilinx ISE, Photoshop, CorelDRAW \\
+    \underline{Programmable Devices:} & AVR and ARM-based Microcontrollers, FPGA, CPLD \\
+    \underline{Communication Protocols:} & TCP/IP, 802.03, 802.11, UART, SPI, I\textsuperscript{2}C, ZigBee \\
+    \underline{Operating Systems:} & Windows, Linux (Ubuntu, Raspbian), Android \\
+    \underline{Miscellaneous:} & Digital and analog circuit design, PCB design, Android application development
+\end{tabular}
+
+\end{flushleft}
+
+\end{document}
