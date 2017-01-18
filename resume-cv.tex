@@ -1,0 +1,72 @@
+%& -job-name=Resume % Put CV or Resume here to generate output files with these names
+
+% Template by: Claud D. Park
+% License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+% >>>>> COMPILE WITH XeLaTeX <<<<< %
+
+\documentclass[11pt]{awesome-cv}
+\usepackage{import}
+\newif\ifcv
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Configuration
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Full CV version:
+%\cvtrue
+% Override color
+\colorlet{awesome}{awesome-skyblue}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Personal Data
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Essentials
+\name{Koosha}{Marashi}
+\address{113 Engineering Research Lab, 500 W 16th St, Rolla, MO 65409-6522}
+\mobile{(573) 202-8465}
+\email{km89f@mst.edu}
+\homepage{www.mst.edu/\textasciitilde km89f}
+\linkedin{koosham}
+%\github{koosham}
+%\stackoverflow{6501860}{koosha-marashi}
+%\skype{koosha.marashi}
+
+%%% Optionals
+%\position{Software Engineer{\enskip\cdotp\enskip}Machine Learning Engineer}
+
+\ifcv
+  \newcommand{\docname}{Curriculum Vitae}
+\else
+  \newcommand{\docname}{R\'{e}sum\'{e}}
+\fi
+
+\makeatletter
+  \makecvfooter
+    {}
+    {\@firstname~\@lastname{\enskip\cdotp\enskip}\docname}
+    {\thepage}
+\makeatother
+
+\begin{document}
+\makecvheader
+
+\ifcv
+  \import{sections/}{education.tex}
+  \import{sections/}{experience.tex}
+  \import{sections/}{leadership.tex}
+  \import{sections/}{honors.tex}
+  \import{sections/}{publications.tex}
+  \import{sections/}{patents.tex}
+  \import{sections/}{profactivity.tex}
+  \import{sections/}{profdev.tex}
+  \import{sections/}{membership.tex}
+  \import{sections/}{skills.tex}
+\else
+  \import{sections/}{education.tex}
+  \import{sections/}{experience.tex}
+  \import{sections/}{leadership.tex}
+  \import{sections/}{honors.tex}
+  \import{sections/}{patents.tex}
+  \import{sections/}{skills.tex}
+\fi
+
+\end{document}
