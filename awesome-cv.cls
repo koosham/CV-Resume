@@ -100,6 +100,7 @@
 %\nobibliography*
 %\bibliographystyle{ieeetr}
 
+\RequirePackage{titlesec}
 
 %-------------------------------------------------------------------------------
 %                Configuration for directory locations
@@ -235,7 +236,7 @@
 \newcommand*{\headerquotestyle}[1]{{\fontsize{9pt}{1em}\bodyfont\itshape\color{darktext} #1}}
 \newcommand*{\footerstyle}[1]{{\fontsize{8pt}{1em}\footerfont\scshape\color{lighttext} #1}}
 \newcommand*{\sectionstyle}[1]{{\fontsize{16pt}{1em}\bodyfont\bfseries\color{awesome}\@sectioncolor #1}}
-\newcommand*{\subsectionstyle}[1]{{\fontsize{12pt}{1em}\bodyfont\scshape\textcolor{text}{#1}}}
+\newcommand*{\subsectionstyle}[1]{{\fontsize{12pt}{1em}\bodyfont\scshape\color{text} #1}}
 
 % For elements of entry
 \newcommand*{\entrytitlestyle}[1]{{\fontsize{10pt}{1em}\bodyfont\bfseries\color{darktext} #1}}
@@ -441,6 +442,16 @@
             {\@headersocialsep}
           \href{http://\@homepage}{\faHome\ \@homepage}
         }
+      \ifthenelse{\isundefined{\@linkedin}}
+        {}
+        {
+          \ifbool{isstart}
+            {
+              \setbool{istart}{false}
+            }
+            {\@headersocialsep}
+          \href{https://www.linkedin.com/in/\@linkedin}{\faLinkedinSquare\ www.linkedin.com/in/\@linkedin}
+        }
       \ifthenelse{\isundefined{\@github}}
         {}
         {
@@ -460,16 +471,6 @@
             }
             {\@headersocialsep}
           \href{https://stackoverflow.com/users/\@stackoverflowid}{\faStackOverflow\ \@stackoverflowname}
-        }
-      \ifthenelse{\isundefined{\@linkedin}}
-        {}
-        {
-          \ifbool{isstart}
-            {
-              \setbool{istart}{false}
-            }
-            {\@headersocialsep}
-          \href{https://www.linkedin.com/in/\@linkedin}{\faLinkedinSquare\ www.linkedin.com/in/\@linkedin}
         }
       \ifthenelse{\isundefined{\@twitter}}
         {}
@@ -515,21 +516,27 @@
 
 % Define a section for CV
 % Usage: \cvsection{<section-title>}
-\newcommand{\cvsection}[1]{
-  \par\addvspace{1.5ex}
-  \phantomsection{}
-  \sectionstyle{#1}
-  \color{gray}\vhrulefill{0.9pt}
-  \par\nobreak\addvspace{1ex}
-}
+%\newcommand{\cvsection}[1]{
+%  \par\addvspace{2.5ex}
+%  \phantomsection{}
+%  \sectionstyle{#1}
+%  \color{gray}\vhrulefill{0.9pt}
+%  \par\nobreak\addvspace{1ex}
+%}
 
 % Define a subsection for CV
 % Usage: \cvsubsection{<subsection-title>}
-\newcommand{\cvsubsection}[1]{
-  \vspace{-2mm}
-  \phantomsection{}
-  \subsectionstyle{#1}
-}
+%\newcommand{\cvsubsection}[1]{
+%  \vspace{-2mm}
+%  \phantomsection{}
+%  \subsectionstyle{#1}
+%}
+
+\newcommand\ruleafter[1]{#1~\color{gray}\vhrulefill{0.9pt}}
+\titleformat{\section}{\sectionstyle}{}{0pt}{\ruleafter}
+\titlespacing{\section}{0pt}{1mm}{0.5mm}
+\titleformat{\subsection}{\subsectionstyle}{}{0pt}{}
+\titlespacing{\subsection}{0pt}{-1.5mm}{-0.5mm}
 
 % Define an environment for cventry
 \newenvironment{cventries}{

@@ -1,0 +1,122 @@
+KOOSHA MARASHI
+Software Engineer · Full-Stack Developer
+
+CONTACT INFORMATION
+------------------------------------------------------------------------------------------------------------
+Phone:		(573)202-8465
+Email:		km89f@mst.edu
+Webpage:	www.mst.edu/~km89f
+LinkedIn:	www.linkedin.com/in/koosham
+
+EDUCATION
+------------------------------------------------------------------------------------------------------------
+Missouri University of Science and Technology (Missouri S&T), Rolla, MO
+Ph.D. in Computer Engineering
+Aug. 2012 - Jul. 2017
+* Dissertation: Quantitative Dependability and Interdependency Models for Cyber-Physical Systems
+* Advisor: Dr. Sahra Sedigh Sarvestani
+* GPA: 3.83/4.0
+
+Isfahan University of Technology (IUT), Isfahan, Iran
+B.S. in Electrical Engineering
+Sep. 2006 - Feb. 2011
+* GPA: 15.61/20
+
+WORK EXPERIENCE
+------------------------------------------------------------------------------------------------------------
+Missouri S&T, Department of Electrical and Computer Engineering, Rolla, MO
+Graduate Research Assistant
+Aug. 2012 - Present
+* Developed reliability and survivability models for critical infrastructures.
+* Proposed a model for analysis of interdependencies in cyber-physical systems.
+
+Kalscott Eng., Lawrence, KS
+Software/Hardware Development Intern
+May 2016 - Aug. 2016
+* Worked on an automated air-band radio for UAVs. Main tasks include migrating to a Linux-powered single-board computer and adding speech recognition feature.
+
+Intellispeak LLC, Lawrence, KS
+Full-Stack Development Intern And Co-Op
+May 2015 - May 2016
+* Developed an information network for e-health services based on Gimbal Bluetooth beacons.
+* Was responsible for development of server back-end, Android app, database, and web interface.
+
+Kalscott Eng., Lawrence, KS
+Software/Hardware Development Intern
+May 2014 - Aug. 2014
+* Developed an automated air-band radio for UAVs. This system is able to predict intent of the UAV and inform nearby traffic.
+
+Industrial Automation Research Center, IUT, Isfahan, Iran
+Research Assistant
+Feb. 2011 - Jun. 2012
+* Made a 10-channel stand-alone data logger.
+* Designed and developed a PC-based data acquisition system for ion-mobility spectrometry.
+
+Beh-Azmoon, Isfahan, Iran
+Firmware Engineer
+Aug. 2010 - Feb. 2011
+* Created a wireless crack monitoring system for structural health monitoring
+
+Farman Khodro, Isfahan, Iran
+Control Systems Engineer
+Feb. 2010 - Aug. 2010
+* Designed an electric power steering system for Iran-Khodro Samand automobile.
+
+Robotics and Automotive Research Center, IUT, Isfahan, Iran
+Research Assistant
+Feb. 2010 - Aug. 2010
+* Developed navigation system and sensor fusion algorithm for LynCean mobile robot.
+* Implemented a motion planning algorithm for Persia soccer robots.
+* Implemented a walking algorithm and developed a motor controller for Parsa humanoid robot.
+* Prototyped an engine control unit for Honda GX35 engine.
+* Developed an electrical dynamometer for low-power engines.
+
+LEADERSHIP ACTIVITIES
+------------------------------------------------------------------------------------------------------------
+Eta Kappa Nu Honor Society - Gamma Theta Chapter, Rolla, MO
+Active Member
+Mar. 2014 - Present
+* Attended regular meetings and helped in voluntary services.
+
+Super-mileage Car Student Design Team, Isfahan, Iran
+Hardware Development Leader
+Oct. 2009 - Aug. 2010
+* Communicated status and issues to cross-functional teams and senior manager.
+* Coordinated resources using Microsoft Project.
+
+NODET Rescue Robot Student Design Team, Isfahan, Iran
+Team Leader
+Sep. 2008 - Apr. 2009
+* Mentored students, helping them to solve problems and make decisions.
+
+HONORS AND AWARDS
+------------------------------------------------------------------------------------------------------------
+2013	National University Transportation Center Fellowship, US Department of Transportation, Rolla, MO
+2013	Travel Scholarship, Trustworthy Cyber Infrastructure for the Power Grid, Urbana, IL
+2012	Vice-Provost for Graduate Studies Fellowship, Missouri S&T, Rolla, MO
+2010	Gold Medal, 38th Geneva Invention Exhibition, Geneva, Switzerland
+2010	Best Invention Award, Russian Incubator of Inventions, Geneva, Switzerland
+2009	Outstanding Undergraduate Researcher Award, IUT, Isfahan, Iran
+
+PATENTS
+------------------------------------------------------------------------------------------------------------
+2014	Wireless Temperature Monitoring System for Centrifugal Casting, Pat. No. 81750, Iran
+2010	2D Wireless Structural Crack Monitoring System, Pat. No. 62181, Iran
+2010	Handheld Data Logger for Agricultural Applications, Pat. No. 61142, Iran
+2009	Life Detector Robot with Adjustable Functionality, Pat. No. 60845, Iran
+2009	Extendable DC Motor Controller System, Pat. No. 60839, Iran
+2009	An Innovative Co-Axial Rotation Mechanism, Pat. No. 60847, Iran
+2009	Robust Track Mechanism for Locomotion of Mobile Robots, Pat. No. 60849, Iran
+2009	Lightweight Robust Platform for Mobile Robots, Pat. No. 60848, Iran
+
+TECHNICAL SKILLS
+------------------------------------------------------------------------------------------------------------
+Programming Languages:		Python, C/C++, Java, SQL, Verilog,  Assembly
+Web Technologies:			HTML, JavaScript, jQuery, CSS, Jekyll, D3.js, Amazon AWS/EC2
+Development Tools:			PyCharm, Android Studio, Eclipse, Git, IntelliJ IDEA, Keil
+Computer Software:			MATLAB & Simulink, LabVIEW (CLAD certificate, issued 5/13), OrCAD, LaTeX, SAS, JMP, Active HDL
+Programmable Devices:		AVR and ARM-based Microcontrollers, FPGA, CPLD
+Communication Protocols:	TCP/IP, 802.03, 802.11, UART, SPI, I2C, ZigBee, Bluetooth
+Operating Systems:			Windows, Linux (Ubuntu, Raspbian), Android
+Miscellaneous:				Digital and analog circuit design, PCB design, Android application development
+
