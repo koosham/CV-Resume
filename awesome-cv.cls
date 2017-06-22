@@ -265,6 +265,9 @@
 \newcommand*{\skilltypestyle}[1]{{\fontsize{10pt}{1em}\bodyfont\bfseries\color{darktext} #1}}
 \newcommand*{\skillsetstyle}[1]{{\fontsize{9pt}{1em}\bodyfontlight\color{text} #1}}
 
+% For elements of summary
+\newcommand*{\summarystyle}[1]{{\fontsize{9pt}{1em}\bodyfontlight\upshape\color{text} #1}}
+
 % For elements of the cover letter
 \newcommand*{\paragraphstyle}[1]{{\fontsize{14pt}{1em}\bodyfont\bfseries\color{text}\@sectioncolor #1}}
 \newcommand*{\recipientaddressstyle}[1]{{\fontsize{9pt}{1em}\bodyfont\scshape\color{graytext} #1}}
@@ -649,6 +652,14 @@
   \vspace{-2mm}
 }
 
+% Define entry for summary
+% Usage: \cvsummary{<text>}
+\newcommand*{\cvsummary}[1]{
+  \par
+  \color{gray}\vhrulefill{0.9pt}
+  \par\nobreak
+  \summarystyle{#1}
+}
 
 %-------------------------------------------------------------------------------
 %                Commands for elements of Cover Letter
