@@ -1,75 +1,73 @@
-KOOSHA MARASHI
-Software Engineer · Full-Stack Developer
+Koosha Marashi
+Software/Firmware Engineer · Back-End/Web/Embedded Systems Developer
 
 CONTACT INFORMATION
 ------------------------------------------------------------------------------------------------------------
-Phone:		(573)202-8465
+Phone:		(573) 202-8465
 Email:		km89f@mst.edu
-Webpage:	www.mst.edu/~km89f
+Webpage:	koosham.github.io
 LinkedIn:	www.linkedin.com/in/koosham
 
-EDUCATION
+SUMMARY
 ------------------------------------------------------------------------------------------------------------
-Missouri University of Science and Technology (Missouri S&T), Rolla, MO
-Ph.D. in Computer Engineering
-Aug. 2012 - Jul. 2017
-* Dissertation: Quantitative Dependability and Interdependency Models for Cyber-Physical Systems
-* Advisor: Dr. Sahra Sedigh Sarvestani
-* GPA: 3.83/4.0
+A results-driven software/firmware engineer with 5+ years of experience in back-end, web, and embedded systems development. Proven leadership and project management skills and strong written and verbal communications. Seeking opportunities where my extensive hands-on and academic experience, acquired through summer internships and working with several research teams, will be well utilized.
 
-Isfahan University of Technology (IUT), Isfahan, Iran
-B.S. in Electrical Engineering
-Sep. 2006 - Feb. 2011
-* GPA: 15.61/20
+TECHNICAL SKILLS
+------------------------------------------------------------------------------------------------------------
+Programming Languages:		Python, C/C++, Java, SQL, Verilog
+Web Technologies:			HTML, JavaScript, CSS, Jekyll, Amazon AWS/EC2
+Computer Software:			MATLAB & Simulink, LabVIEW (CLAD certificate, issued 5/13), OrCAD, LaTeX, SAS, JMP
+Programmable Devices:		AVR and ARM-based Microcontrollers, FPGA
+Communication Protocols:	TCP/IP, 802.03, 802.11, UART, SPI, I2C, ZigBee, Bluetooth
+Operating Systems:			Windows, Linux (Ubuntu, Raspbian), Android
+Miscellaneous:				Git, TensorFlow, Digital and analog circuit design, PCB design, Android application development
 
 WORK EXPERIENCE
 ------------------------------------------------------------------------------------------------------------
 Missouri S&T, Department of Electrical and Computer Engineering, Rolla, MO
 Graduate Research Assistant
 Aug. 2012 - Present
-* Developed reliability and survivability models for critical infrastructures.
-* Proposed a model for analysis of interdependencies in cyber-physical systems.
+* Developed reliability and interdependency models for smart grids. These analytical models help in identifying vulnerabilities and reducing service interruptions in modern electrical grid.
+* Made an ultra-low-power VLF signal detector for underwater communications extending battery life of transceivers by a factor of 40.
 
 Kalscott Eng., Lawrence, KS
 Software/Hardware Development Intern
 May 2016 - Aug. 2016
-* Worked on an automated air-band radio for UAVs. Main tasks include migrating to a Linux-powered single-board computer and adding speech recognition feature.
+* Reduced power consumption of a navigation system for UAVs to one thirtieth of its original value and increasing its performance by 40% by migrating the system to a Linux-powered single-board computer and utilizing optimized algorithms.
 
 Intellispeak LLC, Lawrence, KS
 Full-Stack Development Intern And Co-Op
 May 2015 - May 2016
-* Developed an information network for e-health services based on Gimbal Bluetooth beacons.
+* Utilized Bluetooth beacons and constructed an information network to help patients with Autism.
 * Was responsible for development of server back-end, Android app, database, and web interface.
 
 Kalscott Eng., Lawrence, KS
 Software/Hardware Development Intern
 May 2014 - Aug. 2014
-* Developed an automated air-band radio for UAVs. This system is able to predict intent of the UAV and inform nearby traffic.
-
-Industrial Automation Research Center, IUT, Isfahan, Iran
-Research Assistant
-Feb. 2011 - Jun. 2012
-* Made a 10-channel stand-alone data logger.
-* Designed and developed a PC-based data acquisition system for ion-mobility spectrometry.
+* Developed an automated air-band radio for UAVs. This system is able to predict intent of UAVs with 98% accuracy and inform nearby traffic.
 
 Beh-Azmoon, Isfahan, Iran
 Firmware Engineer
-Aug. 2010 - Feb. 2011
-* Created a wireless crack monitoring system for structural health monitoring
+Dec. 2011 - Jun. 2012
+* Created a wireless digital crack monitoring system for structural health monitoring. This system is to replace the traditional crack gauges eliminating the need for constant surveillance.
 
-Farman Khodro, Isfahan, Iran
-Control Systems Engineer
-Feb. 2010 - Aug. 2010
-* Designed an electric power steering system for Iran-Khodro Samand automobile.
-
-Robotics and Automotive Research Center, IUT, Isfahan, Iran
+IUT, Department of Electrical and Computer Engineering, Isfahan, Iran
 Research Assistant
-Feb. 2010 - Aug. 2010
+Feb. 2006 - Nov. 2011
+* Made a multi-functional stand-alone data logger.
 * Developed navigation system and sensor fusion algorithm for LynCean mobile robot.
-* Implemented a motion planning algorithm for Persia soccer robots.
-* Implemented a walking algorithm and developed a motor controller for Parsa humanoid robot.
-* Prototyped an engine control unit for Honda GX35 engine.
-* Developed an electrical dynamometer for low-power engines.
+* Made a controller board for Parsa humanoid robot.
+* Prototyped an AUTOSAR-compliant engine control unit for Honda GX35 engine.
+
+EDUCATION
+------------------------------------------------------------------------------------------------------------
+Missouri University of Science and Technology (Missouri S&T), Rolla, MO
+Ph.D. in Computer Engineering
+Aug. 2012 - Jul. 2017
+
+Isfahan University of Technology (IUT), Isfahan, Iran
+B.S. in Electrical Engineering
+Sep. 2006 - Feb. 2011
 
 LEADERSHIP ACTIVITIES
 ------------------------------------------------------------------------------------------------------------
@@ -84,7 +82,7 @@ Oct. 2009 - Aug. 2010
 * Communicated status and issues to cross-functional teams and senior manager.
 * Coordinated resources using Microsoft Project.
 
-NODET Rescue Robot Student Design Team, Isfahan, Iran
+Rescue Robot Student Design Team, Isfahan, Iran
 Team Leader
 Sep. 2008 - Apr. 2009
 * Mentored students, helping them to solve problems and make decisions.
@@ -100,23 +98,11 @@ HONORS AND AWARDS
 
 PATENTS
 ------------------------------------------------------------------------------------------------------------
-2014	Wireless Temperature Monitoring System for Centrifugal Casting, Pat. No. 81750, Iran
-2010	2D Wireless Structural Crack Monitoring System, Pat. No. 62181, Iran
-2010	Handheld Data Logger for Agricultural Applications, Pat. No. 61142, Iran
-2009	Life Detector Robot with Adjustable Functionality, Pat. No. 60845, Iran
-2009	Extendable DC Motor Controller System, Pat. No. 60839, Iran
-2009	An Innovative Co-Axial Rotation Mechanism, Pat. No. 60847, Iran
-2009	Robust Track Mechanism for Locomotion of Mobile Robots, Pat. No. 60849, Iran
-2009	Lightweight Robust Platform for Mobile Robots, Pat. No. 60848, Iran
-
-TECHNICAL SKILLS
-------------------------------------------------------------------------------------------------------------
-Programming Languages:		Python, C/C++, Java, SQL, Verilog,  Assembly
-Web Technologies:			HTML, JavaScript, jQuery, CSS, Jekyll, D3.js, Amazon AWS/EC2
-Development Tools:			PyCharm, Android Studio, Eclipse, Git, IntelliJ IDEA, Keil
-Computer Software:			MATLAB & Simulink, LabVIEW (CLAD certificate, issued 5/13), OrCAD, LaTeX, SAS, JMP, Active HDL
-Programmable Devices:		AVR and ARM-based Microcontrollers, FPGA, CPLD
-Communication Protocols:	TCP/IP, 802.03, 802.11, UART, SPI, I2C, ZigBee, Bluetooth
-Operating Systems:			Windows, Linux (Ubuntu, Raspbian), Android
-Miscellaneous:				Digital and analog circuit design, PCB design, Android application development
-
+2014	Wireless Temperature Monitoring System for Centrifugal Casting, Pat. No. IR-81750
+2010	2D Wireless Structural Crack Monitoring System, Pat. No. IR-62181
+2010	Handheld Data Logger for Agricultural Applications, Pat. No. IR-61142
+2009	Life Detector Robot with Adjustable Functionality, Pat. No. IR-60845
+2009	Extendable DC Motor Controller System, Pat. No. IR-60839
+2009	An Innovative Co-Axial Rotation Mechanism, Pat. No. IR-60847
+2009	Robust Track Mechanism for Locomotion of Mobile Robots, Pat. No. IR-60849
+2009	Lightweight Robust Platform for Mobile Robots, Pat. No. IR-60848
