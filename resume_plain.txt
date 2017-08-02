@@ -14,13 +14,13 @@ A results-driven software/firmware engineer with 5+ years of experience in back-
 
 TECHNICAL SKILLS
 ------------------------------------------------------------------------------------------------------------
-Programming Languages:		Python, C/C++, Java, SQL, Verilog
-Web Technologies:			HTML, JavaScript, CSS, Jekyll, Amazon AWS/EC2
+Programming Languages:		Python (expert), C/C++ (proficient), SQL (proficient), Java (prior experience), Verilog (prior experience)
+Web Technologies:			HTML, JavaScript, CSS, Bottle, RESTful API, Jekyll, Amazon AWS/EC2
 Computer Software:			MATLAB & Simulink, LabVIEW (CLAD certificate, issued 5/13), OrCAD, LaTeX, SAS, JMP
 Programmable Devices:		AVR and ARM-based Microcontrollers, FPGA
 Communication Protocols:	TCP/IP, 802.03, 802.11, UART, SPI, I2C, ZigBee, Bluetooth
 Operating Systems:			Windows, Linux (Ubuntu, Raspbian), Android
-Miscellaneous:				Git, TensorFlow, Digital and analog circuit design, PCB design, Android application development
+Miscellaneous:				Agile Development, Git, TensorFlow, Digital and analog circuit design, PCB design, Android application development
 
 WORK EXPERIENCE
 ------------------------------------------------------------------------------------------------------------
@@ -33,7 +33,7 @@ Aug. 2012 - Present
 Kalscott Eng., Lawrence, KS
 Software/Hardware Development Intern
 May 2016 - Aug. 2016
-* Reduced power consumption of a navigation system for UAVs to one thirtieth of its original value and increasing its performance by 40% by migrating the system to a Linux-powered single-board computer and utilizing optimized algorithms.
+* Reduced power consumption of a UAV navigation system to one thirtieth of its original value and improved its performance by 40% by migrating to a Linux-powered single-board computer and utilizing optimized algorithms.
 
 Intellispeak LLC, Lawrence, KS
 Full-Stack Development Intern And Co-Op
