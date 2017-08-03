@@ -10,17 +10,18 @@ LinkedIn:	www.linkedin.com/in/koosham
 
 SUMMARY
 ------------------------------------------------------------------------------------------------------------
-A results-driven software/firmware engineer with 5+ years of experience in back-end, web, and embedded systems development. Proven leadership and project management skills and strong written and verbal communications. Seeking opportunities where my extensive hands-on and academic experience, acquired through summer internships and working with several research teams, will be well utilized.
+A results-driven software/firmware engineer with 5+ years of experience in back-end, web, and embedded systems development. Fast learner, highly organized, and capable of accomplishing tasks on time while being innovative. Proven leadership and project management skills and strong written and verbal communications. Seeking opportunities where my extensive hands-on and academic experience, acquired through summer internships and working with several research teams, will be well utilized.
 
 TECHNICAL SKILLS
 ------------------------------------------------------------------------------------------------------------
 Programming Languages:		Python (expert), C/C++ (proficient), SQL (proficient), Java (prior experience), Verilog (prior experience)
 Web Technologies:			HTML, JavaScript, CSS, Bottle, RESTful API, Jekyll, Amazon AWS/EC2
-Computer Software:			MATLAB & Simulink, LabVIEW (CLAD certificate, issued 5/13), OrCAD, LaTeX, SAS, JMP
+Computer Software:			MATLAB & Simulink, LabVIEW (CLAD certificate, issued 5/13), OrCAD, LaTeX
+Data Analysis:				Machine learning, Neural networks, Statistical modeling, Regression, ANOVA, TensorFlow, SAS, JMP
 Programmable Devices:		AVR and ARM-based Microcontrollers, FPGA
 Communication Protocols:	TCP/IP, 802.03, 802.11, UART, SPI, I2C, ZigBee, Bluetooth
 Operating Systems:			Windows, Linux (Ubuntu, Raspbian), Android
-Miscellaneous:				Agile Development, Git, TensorFlow, Digital and analog circuit design, PCB design, Android application development
+Miscellaneous:				Agile Development, Git, Digital and analog circuit design, PCB design, Android application development
 
 WORK EXPERIENCE
 ------------------------------------------------------------------------------------------------------------
@@ -38,8 +39,8 @@ May 2016 - Aug. 2016
 Intellispeak LLC, Lawrence, KS
 Full-Stack Development Intern And Co-Op
 May 2015 - May 2016
-* Utilized Bluetooth beacons and constructed an information network to help patients with Autism.
-* Was responsible for development of server back-end, Android app, database, and web interface.
+* Utilized Bluetooth beacons and constructed an information network to help patients with autism.
+* Was responsible for development of server back-end (Python), Android app (Java), database (MySQL), and web interface (HTML, JavaScript, and CSS).
 
 Kalscott Eng., Lawrence, KS
 Software/Hardware Development Intern
