@@ -101,6 +101,12 @@
 %\bibliographystyle{ieeetr}
 
 \RequirePackage{titlesec}
+% Needed for fixed-width tables
+\RequirePackage{tabularx}
+% Needed for nested tabulars
+\RequirePackage{adjustbox}
+% Needed for multi-row cells in tables
+\RequirePackage{multirow}
 
 %-------------------------------------------------------------------------------
 %                Configuration for directory locations
@@ -235,7 +241,7 @@
 \newcommand*{\headersocialstyle}[1]{{\fontsize{8pt}{1em}\headerfont\color{text} #1}}
 \newcommand*{\headerquotestyle}[1]{{\fontsize{9pt}{1em}\bodyfont\itshape\color{darktext} #1}}
 \newcommand*{\footerstyle}[1]{{\fontsize{8pt}{1em}\footerfont\scshape\color{lighttext} #1}}
-\newcommand*{\sectionstyle}[1]{{\fontsize{16pt}{1em}\bodyfont\bfseries\color{awesome}\@sectioncolor #1}}
+\newcommand*{\sectionstyle}[1]{{\fontsize{14pt}{1em}\bodyfont\bfseries\color{awesome}\@sectioncolor #1}}
 \newcommand*{\subsectionstyle}[1]{{\fontsize{12pt}{1em}\bodyfont\scshape\color{text} #1}}
 
 % For elements of entry
@@ -263,7 +269,7 @@
 
 % For elements of skill
 \newcommand*{\skilltypestyle}[1]{{\fontsize{10pt}{1em}\bodyfont\bfseries\color{darktext} #1}}
-\newcommand*{\skillsetstyle}[1]{{\fontsize{9pt}{1em}\bodyfontlight\color{text} #1}}
+\newcommand*{\skillsetstyle}[1]{{\fontsize{9pt}{1em}\bodyfontlight\protect\leavevmode\color{text} #1}}
 
 % For elements of summary
 \newcommand*{\summarystyle}[1]{{\fontsize{9pt}{1em}\bodyfont\upshape\color{text} #1}}
@@ -623,27 +629,43 @@
 }
 
 % Define an environment for cvskill
+%\newenvironment{cvskills}{
+%  \begin{center}
+%    \setlength\tabcolsep{1ex}
+%    \setlength{\extrarowheight}{0pt}
+%    \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} r L{15.2cm}}
+%}{
+%    \end{tabular*}
+%  \end{center}
+%}
+
+% Define a line of cv information(skill)
+% Usage: \cvskill{<type>}{<skillset>}
+%\newcommand*{\cvskill}[2]{
+%	\skilltypestyle{#1} & \skillsetstyle{#2}
+%  \\
+%}
+
+% Define an environment for cvskill
 \newenvironment{cvskills}{
-  \begin{center}
-    \setlength\tabcolsep{1ex}
-    \setlength{\extrarowheight}{0pt}
-    \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} r L{15.2cm}}
+  \setlength\tabcolsep{1ex}
+  \setlength{\extrarowheight}{0pt}
+  \tabularx{\textwidth}{rX}
 }{
-    \end{tabular*}
-  \end{center}
+  \endtabularx
 }
+
 % Define a line of cv information(skill)
 % Usage: \cvskill{<type>}{<skillset>}
 \newcommand*{\cvskill}[2]{
-	\skilltypestyle{#1} & \skillsetstyle{#2}
-  \\
+  \skilltypestyle{#1} & \skillsetstyle{#2} \\
 }
 
 % Define an environment for cvitems(for cventry)
 \newenvironment{cvitems}{
   \vspace{-4mm}
   \begin{justify}
-  \begin{itemize}[leftmargin=2ex, rightmargin=3.5cm, nosep, noitemsep]
+  \begin{itemize}[leftmargin=2ex, rightmargin=2.5cm, nosep, noitemsep]
     \setlength{\parskip}{0pt}
     \renewcommand{\labelitemi}{\bullet}
 }{

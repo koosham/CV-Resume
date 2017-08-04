@@ -1,5 +1,5 @@
 Koosha Marashi
-Software/Firmware Engineer · Back-End/Web/Embedded Systems Developer
+Software/Hardware/Firmware Engineer
 
 CONTACT INFORMATION
 ------------------------------------------------------------------------------------------------------------
@@ -10,17 +10,19 @@ LinkedIn:	www.linkedin.com/in/koosham
 
 SUMMARY
 ------------------------------------------------------------------------------------------------------------
-A results-driven software/firmware engineer with 5+ years of experience in back-end, web, and embedded systems development. Proven leadership and project management skills and strong written and verbal communications. Seeking opportunities where my extensive hands-on and academic experience, acquired through summer internships and working with several research teams, will be well utilized.
+A results-driven software/hardware/firmware engineer with 5+ years of experience in embedded microcontroller-based system software design and circuit/PCB design. Fast learner, highly organized, and capable of accomplishing tasks on time while being innovative. Proven leadership and project management skills and strong written and verbal communications. Seeking opportunities where my extensive hands-on and academic experience, acquired through summer internships and working with several research teams, will be well utilized.
 
 TECHNICAL SKILLS
 ------------------------------------------------------------------------------------------------------------
-Programming Languages:		Python, C/C++, Java, SQL, Verilog
-Web Technologies:			HTML, JavaScript, CSS, Jekyll, Amazon AWS/EC2
-Computer Software:			MATLAB & Simulink, LabVIEW (CLAD certificate, issued 5/13), OrCAD, LaTeX, SAS, JMP
-Programmable Devices:		AVR and ARM-based Microcontrollers, FPGA
-Communication Protocols:	TCP/IP, 802.03, 802.11, UART, SPI, I2C, ZigBee, Bluetooth
-Operating Systems:			Windows, Linux (Ubuntu, Raspbian), Android
-Miscellaneous:				Git, TensorFlow, Digital and analog circuit design, PCB design, Android application development
+Programming Languages:			Python (expert), C/C++ (proficient), SQL (proficient), Java (prior experience), Verilog (prior experience)
+Computer Software:				OrCAD, LabVIEW (CLAD certificate, issued 5/13), MATLAB & Simulink, LATEX, SAS, JMP
+Development Tools:				IAR Embedded Workbench, Atmel Studio, Keil, MPLAB, Eclipse, PyCharm, Android Studio
+Programmable Devices:			AVR and ARM-based Microcontrollers, FPGA
+Test Equipment:					Logic Analyzer, Spectrum Analyzer, Oscilloscope, Signal Generator
+Communication Protocols:		UART, SPI, I2C, USB, TCP/IP, 802.03, 802.11, ZigBee, Bluetooth
+Web Technologies:				HTML, JavaScript, CSS, Jekyll, Amazon AWS/EC2
+Operating Systems:				Windows, Linux (Ubuntu, Red Hat, Raspbian), Android
+Miscellaneous:					Agile development, Digital and analog circuit design, PCB design, Git, Android app development
 
 WORK EXPERIENCE
 ------------------------------------------------------------------------------------------------------------
@@ -33,13 +35,13 @@ Aug. 2012 - Present
 Kalscott Eng., Lawrence, KS
 Software/Hardware Development Intern
 May 2016 - Aug. 2016
-* Reduced power consumption of a navigation system for UAVs to one thirtieth of its original value and increasing its performance by 40% by migrating the system to a Linux-powered single-board computer and utilizing optimized algorithms.
+* Reduced power consumption of a UAV navigation system to one thirtieth of its original value and improved its performance by 40% by migrating real-time applications to a Linux-powered single-board computer and utilizing optimized algorithms.
 
 Intellispeak LLC, Lawrence, KS
 Full-Stack Development Intern And Co-Op
 May 2015 - May 2016
-* Utilized Bluetooth beacons and constructed an information network to help patients with Autism.
-* Was responsible for development of server back-end, Android app, database, and web interface.
+* Utilized Bluetooth beacons and constructed an information network to help patients with autism.
+* Responsible for developing and testing an embedded firmware application for a GPS tracker with secure communications.
 
 Kalscott Eng., Lawrence, KS
 Software/Hardware Development Intern
@@ -55,9 +57,10 @@ IUT, Department of Electrical and Computer Engineering, Isfahan, Iran
 Research Assistant
 Feb. 2006 - Nov. 2011
 * Made a multi-functional stand-alone data logger.
-* Developed navigation system and sensor fusion algorithm for LynCean mobile robot.
+* Developed motor controller board, navigation system, and sensor fusion algorithm for LynCean mobile robot.
+* Made a modular I2C-based system for hardware control and sensor data integration on mobile robots.
 * Made a controller board for Parsa humanoid robot.
-* Prototyped an AUTOSAR-compliant engine control unit for Honda GX35 engine.
+* Prototyped an AUTOSAR-compliant engine control unit for Honda GX35 engine based on STM32 microcontrollers.
 
 EDUCATION
 ------------------------------------------------------------------------------------------------------------
