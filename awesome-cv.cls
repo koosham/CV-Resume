@@ -21,7 +21,7 @@
 %-------------------------------------------------------------------------------
 %                Identification
 %-------------------------------------------------------------------------------
-\ProvidesClass{awesome-cv}[2015/12/14 v1.3 Awesome Curriculum Vitae Class]
+\ProvidesClass{awesome-cv}[2017/02/05 v1.6.1 Awesome Curriculum Vitae Class]
 \NeedsTeXFormat{LaTeX2e}
 
 
@@ -77,7 +77,7 @@
   \RequirePackage[utf8]{inputenc}
 \fi
 % Needed to manage math fonts
-\RequirePackage[math-style=TeX,vargreek-shape=unicode]{unicode-math}
+\RequirePackage{unicode-math}
 % Needed to use icons from font-awesome
 % (https://github.com/posquit0/latex-fontawesome)
 \RequirePackage{fontawesome}
@@ -341,6 +341,21 @@
 % Usage: \twitter{<twitter handle>}
 \newcommand*{\twitter}[1]{\def\@twitter{#1}}
 
+% Defines writer's google scholar profile (optional)
+% Usage: \googlescholar{<googlescholar userid>}{<googlescholar username>}
+% e.g.https://scholar.google.co.uk/citations?user=wpZDx1cAAAAJ
+% would be \googlescholar{wpZDx1cAAAAJ}{Name-to-display-next-icon}
+% If 'googlescholar-name' is not provided than it defaults to
+% '\firstname \lastname'
+\newcommand*{\googlescholar}[2]{%
+  \def\@googlescholarid{#1}%
+  \ifthenelse{\equal{#2}{}}{%
+    \def\@googlescholarname{\@firstname~\@lastname}%
+  }{%
+    \def\@googlescholarname{#2}%
+  }%
+}
+
 % Defines writer's quote (optional)
 % Usage: \quote{<quote>}
 \renewcommand*{\quote}[1]{\def\@quote{#1}}
@@ -501,6 +516,18 @@
             {\@headersocialsep}
           \faSkype\ \@skype
         }
+      \ifthenelse{\isundefined{\@medium}}%
+        {}%
+        {%
+          \ifbool{isstart}{\setbool{isstart}{false}}{\acvHeaderSocialSep}%
+          \href{https://medium.com\\@\@medium}{\faMedium\acvHeaderIconSep\@medium}%
+        }%
+      \ifthenelse{\isundefined{\@googlescholarid}}%
+        {}%
+        {%
+          \ifbool{isstart}{\setbool{isstart}{false}}{\acvHeaderSocialSep}%
+          \href{https://scholar.google.com/citations?user=\@googlescholarid}{\faGraduationCap\acvHeaderIconSep\@googlescholarname}%
+        }%
     } \\
     \ifthenelse{\isundefined{\@quote}}
       {}
