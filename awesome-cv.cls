@@ -397,12 +397,22 @@
 %-------------------------------------------------------------------------------
 %                Commands for extra
 %-------------------------------------------------------------------------------
+%% Define helper macros a user can change easily
+% Header
+\newcommand{\acvHeaderNameDelim}{\space}
+\newcommand{\acvHeaderAfterNameSkip}{.4mm}
+\newcommand{\acvHeaderAfterPositionSkip}{.4mm}
+\newcommand{\acvHeaderAfterAddressSkip}{-.5mm}
+\newcommand{\acvHeaderIconSep}{\space}
+\newcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+\newcommand{\acvHeaderAfterSocialSkip}{6mm}
+\newcommand{\acvHeaderAfterQuoteSkip}{5mm}
+
 % Define separator for social informations in header
 % Usage: \headersocialsep{<separator>}
 % Default: \quad\textbar\quad
 \newcommand*{\headersocialsep}[1][\quad\textbar\quad]{\def\@headersocialsep{#1}}
 \headersocialsep
-
 
 %-------------------------------------------------------------------------------
 %                Commands for utilities
@@ -572,7 +582,7 @@
 \titleformat{\section}{\sectionstyle}{}{0pt}{\ruleafter}
 \titlespacing{\section}{0pt}{1mm}{0.5mm}
 \titleformat{\subsection}{\subsectionstyle}{}{0pt}{}
-\titlespacing{\subsection}{0pt}{-1.5mm}{-0.5mm}
+\titlespacing{\subsection}{0pt}{1pt}{2pt}
 
 % Define an environment for cventry
 \newenvironment{cventries}{
